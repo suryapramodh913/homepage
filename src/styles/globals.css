@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../../styles/fonts//Roboto/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Zilla Slab";
+  font-style: normal;
+  font-display: swap;
+  src: url("../../styles/fonts//Zilla_Slab/ZillaSlab-Medium.ttf") format("truetype");
+}
+
+svg {
+  height: auto;
+}
+
+.section:hover {
+  transform: scale(1.5);
+}
+.section {
+  transition: all 1s;
+  transform-origin: 50% 50%;
+}
+
+.card-grid .slick-list{
+  padding: 0 20% 20px 0 !important;
+}
+
+.slick-list{
+  overflow: auto !important;
+  padding-bottom: 20px !important;
+}
+
+.banner .slick-list{
+  overflow: hidden !important;
+  padding-bottom: 0px !important;
+}
+
+.banner .slick-dots{
+  bottom: 15px;
+}
+
+.slick-dots li button:before{
+  width: 8px !important;
+  height: 8px !important;
+  color: white !important;
+  left: 5px !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BCB7B2;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

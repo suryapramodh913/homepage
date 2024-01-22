@@ -1,0 +1,301 @@
+{
+    "homepage" : {
+        "data": {
+            "components" : [
+                {
+                    "id": "1",
+                    "type": "hero-banner",
+                     "data": [{
+                        "id": 1,
+                        "title": "Stay warm this winter",
+                        "subTitle": "15% off Carhartt clothing",
+                        "linkText": "Shop Now",
+                        "desktopImg": "/images/hero-side-1.png",
+                        "mobileImg": "/images/herobannerMobile.png",
+                        "navigationUrl": "",
+                        "textColor": "#5A3A21",
+                        "verticalAlignment": "top",
+                        "horizontalAlignment": "left"
+                     },
+                     {
+                        "id": 1,
+                        "title": "",
+                        "subTitle": "Chick days are back!",
+                        "linkText": "Learn More",
+                        "desktopImg": "/images/hero-side-2.png",
+                        "mobileImg": "/images/hero-side-2.png",
+                        "navigationUrl": "",
+                        "textColor": "#FFFFFF",
+                        "verticalAlignment": "top",
+                        "horizontalAlignment": "right"
+                     },
+                     {
+                        "id": 1,
+                        "title": "",
+                        "subTitle": "Up to 30% off Red Shed Fall decor",
+                        "linkText": "Shop Now",
+                        "desktopImg": "/images/hero-side-2.png",
+                        "mobileImg": "/images/hero-side-2.png",
+                        "navigationUrl": "",
+                        "textColor": "#576446",
+                        "verticalAlignment": "top",
+                        "horizontalAlignment": "left"
+                     }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "type": "categories",
+                    "title": "Shop Popular Categories",
+                    "bgColor": "red",
+                    "fillComponent": false,
+                    "itemBgColor": "#F9F6F2",
+                     "data": [{
+                        "id": 1,
+                        "title": "Fall",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": "/help"
+                     },
+                     {
+                        "id": 2,
+                        "title": "Truck & Towing",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 3,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 4,
+                        "title": "Clothing",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 4,
+                        "title": "Sale",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 6,
+                        "title": "Lawn & Garden",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 7,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 8,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 9,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 10,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 11,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 12,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 13,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 14,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     },
+                     {
+                        "id": 15,
+                        "title": "Farm & Ranch",
+                        "desktopImg": "/images/categoryImage.svg",
+                        "mobileImg": "/images/categoryImage.svg",
+                        "navigationUrl": ""
+                     }
+                    ]
+                },
+                {
+                  "id": "3",
+                  "type": "3-card-grid",
+                  "title": "Prepare for Winter Out Here",
+                  "bgColor": "#F9F6F2",
+                  "fillComponent": true,
+                   "data": [{
+                      "id": 1,
+                      "title": "Get Organized on a Budget",
+                      "subTitle": "Tips & Tricks on organizing your space for 2024",
+                      "linkText": "Learn More",
+                      "desktopImg": "/images/cardImage.svg",
+                      "mobileImg": "/images/cardImage.svg",
+                      "navigationUrl": "/help"
+                   },
+                   {
+                     "id": 1,
+                     "title": "Keep Your Pets Warm",
+                     "subTitle": "Find chicken coop heaters, bedding and more",
+                     "linkText": "Shop Now",
+                     "desktopImg": "/images/cardImage.svg",
+                     "mobileImg": "/images/cardImage.svg",
+                     "navigationUrl": "/help"
+                  },
+                  {
+                     "id": 1,
+                     "title": "Start Your Winter Garden",
+                     "subTitle": "Find plants that thrive in Tennessee Winter",
+                     "linkText": "Learn More",
+                     "desktopImg": "/images/cardImage.svg",
+                     "mobileImg": "/images/cardImage.svg",
+                     "navigationUrl": "/help"
+                  }
+                  ]
+              },
+              {
+               "id": "4",
+               "type": "brands",
+               "title": "Shop Popular Brands",
+               "linktext": "View All",
+               "linkTextUrl": "",
+               "bgColor": "red",
+               "fillComponent": false,
+                "data": [{
+                   "id": 1,
+                   "title": "Fall",
+                   "desktopImg": "/images/categoryImage.svg",
+                   "mobileImg": "/images/categoryImage.svg",
+                   "navigationUrl": "/help"
+                },
+                {
+                   "id": 2,
+                   "title": "Truck & Towing",
+                   "desktopImg": "/images/categoryImage.svg",
+                   "mobileImg": "/images/categoryImage.svg",
+                   "navigationUrl": ""
+                },
+                {
+                   "id": 3,
+                   "title": "Farm & Ranch",
+                   "desktopImg": "/images/categoryImage.svg",
+                   "mobileImg": "/images/categoryImage.svg",
+                   "navigationUrl": ""
+                },
+                {
+                   "id": 4,
+                   "title": "Clothing",
+                   "desktopImg": "/images/categoryImage.svg",
+                   "mobileImg": "/images/categoryImage.svg",
+                   "navigationUrl": ""
+                },
+                {
+                   "id": 4,
+                   "title": "Sale",
+                   "desktopImg": "/images/categoryImage.svg",
+                   "mobileImg": "/images/categoryImage.svg",
+                   "navigationUrl": ""
+                },
+                {
+                   "id": 6,
+                   "title": "Lawn & Garden",
+                   "desktopImg": "/images/categoryImage.svg",
+                   "mobileImg": "/images/categoryImage.svg",
+                   "navigationUrl": ""
+                },
+                {
+                   "id": 7,
+                   "title": "Farm & Ranch",
+                   "desktopImg": "/images/categoryImage.svg",
+                   "mobileImg": "/images/categoryImage.svg",
+                   "navigationUrl": ""
+                }
+               ]
+           },
+           {
+            "id": "4",
+            "type": "instagramWidget",
+            "title": "#LifeOutHere - Your Way",
+            "titleSpanText": "on Instagram",
+            "titleTextLogo": "/images/categoryImage.svg",
+            "linktext": "Instagram",
+            "linkTextUrl": "",
+            "bgColor": "red",
+            "fillComponent": false,
+             "data": [{
+                "id": 1,
+                "title": "Shop Now",
+                "tagLink": "@ighandleexample",
+                "desktopImg": "/images/cardImage.svg",
+                "mobileImg": "/images/cardImage.svg",
+                "navigationUrl": "/help"
+             },
+             {
+                "id": 2,
+                "title": "Shop Now",
+                "tagLink": "@ighandleexample",
+                "desktopImg": "/images/cardImage.svg",
+                "mobileImg": "/images/cardImage.svg",
+                "navigationUrl": ""
+             },
+             {
+                "id": 3,
+                "title": "Shop Now",
+                "tagLink": "@ighandleexample",
+                "desktopImg": "/images/cardImage.svg",
+                "mobileImg": "/images/cardImage.svg",
+                "navigationUrl": ""
+             },
+             {
+                "id": 4,
+                "title": "Shop Now",
+                "tagLink": "@ighandleexample",
+                "desktopImg": "/images/cardImage.svg",
+                "mobileImg": "/images/cardImage.svg",
+                "navigationUrl": ""
+             }
+            ]
+        }
+            ]
+        }
+    }
+}
