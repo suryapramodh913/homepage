@@ -29,15 +29,9 @@ export const LinkText = styled(Link)(() => ({
     }
 }))
 
-export const ImageBox = styled(Box)(() => ({
-    width: "100%",
-    borderTopRightRadius: "5px",
-    borderTopLeftRadius: "5px"
-}))
-
-export const ContentCard = styled(Box)(({matches}) => ({
+export const ContentCard = styled(Box)<{$matches: any}>(({$matches}) => ({
     backgroundColor: "#FFFFFF",
-    minHeight: matches ? "110px" : "150px",
+    minHeight: $matches ? "110px" : "150px",
     padding: "15px",
     borderBottomRightRadius: "5px",
     borderBottomLeftRadius: "5px"

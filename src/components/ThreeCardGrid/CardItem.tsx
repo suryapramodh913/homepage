@@ -1,7 +1,7 @@
 import React from "react"
 import { useRouter } from "next/router";
-import { ContentCard, ImageBox, LinkText, SubTitleText, TitleText } from "./Style";
-import { useMediaQuery } from "@mui/material";
+import { ContentCard, LinkText, SubTitleText, TitleText } from "./Style";
+import { Box, useMediaQuery } from "@mui/material";
 
 const CardItem = (props: any) => {
     const matches = useMediaQuery('(min-width:780px)');
@@ -13,8 +13,12 @@ const CardItem = (props: any) => {
 
     return (
         <React.Fragment>
-            <ImageBox component={"img"} alt={props?.altText} src={props?.desktopImg} />
-            <ContentCard matches={matches}>
+            <Box component={"img"} alt={props?.altText} src={props?.desktopImg} sx={{
+                width: "100%",
+                borderTopRightRadius: "5px",
+                borderTopLeftRadius: "5px"
+            }} />
+            <ContentCard $matches={matches}>
                 <TitleText>{props?.title}</TitleText>
                 <SubTitleText>{props?.subTitle}</SubTitleText>
                 <LinkText onClick={() => handleNavigation(props)}>{props?.linkText}</LinkText>
