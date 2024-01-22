@@ -1,22 +1,22 @@
 import styled from "@emotion/styled"
 import { Grid, Link, Typography } from "@mui/material"
 
-export const TitleText = styled(Typography)(({ sidebanner }) => ({
-    font: sidebanner ? "normal normal bold 23px/43px Zilla Slab" : "normal normal bold 30px/73px Zilla Slab",
+export const TitleText = styled(Typography)(({ sidebanner, matches }) => ({
+    font: !matches ? "normal normal bold 14px/15px Zilla Slab" : sidebanner ? "normal normal bold 23px/43px Zilla Slab" : "normal normal bold 30px/73px Zilla Slab",
     letterSpacing: "0px",
     opacity: 1,
 }))
 
-export const SubTitleText = styled(Typography)(({ sidebanner }) => ({
-    font: sidebanner ? "normal normal bold 30px/33px Zilla Slab" : "normal normal bold 41px/43px Zilla Slab",
+export const SubTitleText = styled(Typography)(({ sidebanner, matches }) => ({
+    font: !matches ? "normal normal bold 25px/26px Zilla Slab" : sidebanner ? "normal normal bold 30px/33px Zilla Slab" : "normal normal bold 41px/43px Zilla Slab",
     letterSpacing: "0px",
     opacity: 1,
     paddingTop: "8px",
     paddingBottom: "32px",
 }))
 
-export const LinkText = styled(Link)(({ sidebanner }) => ({
-    font: sidebanner ? "normal normal normal 16px/23px Roboto" : "normal normal normal 26px/34px Roboto",
+export const LinkText = styled(Link)(({ sidebanner, matches }) => ({
+    font: !matches ? "normal normal normal 19px/25px Roboto" : sidebanner ? "normal normal normal 16px/23px Roboto" : "normal normal normal 26px/34px Roboto",
     letterSpacing: "0px",
     opacity: 1,
     cursor: "pointer",

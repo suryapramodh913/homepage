@@ -46,6 +46,21 @@ svg {
   padding-bottom: 20px !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .brandsComponentSlider .slick-list{
+    overflow: auto !important;
+    padding-bottom: 20px !important;
+  }
+ }
+
+ @media only screen and (min-width: 599px) {
+  .brandsComponentSlider .slick-list{
+    overflow: hidden !important;
+    padding-bottom: 20px !important;
+  }
+ }
+
+
 .banner .slick-list{
   overflow: hidden !important;
   padding-bottom: 0px !important;
@@ -79,4 +94,18 @@ svg {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.brandsImageGrid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandsImageGrid svg{
+  filter: grayscale(1);
+}
+
+.brandsImageGrid svg:hover{
+  filter: grayscale(0);
 }
