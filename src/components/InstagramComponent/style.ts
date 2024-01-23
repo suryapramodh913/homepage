@@ -1,5 +1,5 @@
 import styled from "@emotion/styled"
-import { Box, Button, Grid, Link, Typography } from "@mui/material"
+import { Button, Grid, Link, Typography } from "@mui/material"
 
 export const MiddleGrid = styled(Grid)(() => ({
     position: "absolute",
@@ -28,9 +28,6 @@ export const TagText = styled(Typography)(() => ({
 }))
 
 
-export const ImageBox = styled(Box)(() => ({
-    position: "relative"
-}))
 
 export const LoadMoreButton = styled(Button)(() => ({
     border: "1px solid #222222", 

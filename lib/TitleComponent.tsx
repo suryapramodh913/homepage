@@ -8,7 +8,12 @@ const TitleComponent = (props: any) => {
         <React.Fragment>
             {(props?.title || props?.linktext) &&
                 <Grid display="flex" justifyContent={"space-between"} mb={"20px"}>
-                    <TitleText variant="h5">{props?.titleTextLogo && <RenderImage src={props?.titleTextLogo} width="30px" wrapper="div"/>}{props?.title}</TitleText>
+                    <Grid display="flex">
+                    {props?.titleTextLogo && <RenderImage src={props?.titleTextLogo} width="30px" wrapper="div"/>}
+                    <TitleText  dangerouslySetInnerHTML={{
+                    __html: props?.title,
+                  }}></TitleText>
+                  </Grid>
                     {props?.linktext && <LinkText href={props?.linkTextUrl}>{props?.linktext}</LinkText>}
                 </Grid>
             }
