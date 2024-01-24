@@ -56,7 +56,7 @@ const CategoryComponent = (props: any) => {
                     {props?.data?.map((item: any) => {
                         return (
                             <Grid key={item?.title} mr={"12px"} ml={"12px"} mt={"12px"} sx={{ cursor: "pointer" }} onClick={() => handleNavigation(item)} id="itemGrid">
-                                <Box sx={{ width: "125px", height: "125px", boxShadow: "0.5px 1.5px 9px 7px #dddddd", backgroundColor: props?.itemBgColor, borderRadius: "50%", paddingTop: "15px" }}>
+                                <Box sx={{ width: "125px", height: "125px", boxShadow: "0px 10px 15px -3px rgba(0,0,0,0.1)", backgroundColor: props?.itemBgColor, borderRadius: "50%", paddingTop: "15px", "&:hover": {boxShadow: "0.5px 1.5px 9px 7px #dddddd"}  }}>
                                     <Grid className="brandsImageGrid">
                                         <RenderImage src={item?.desktopImg} width="95px" wrapper="div" />
                                     </Grid>

@@ -48,9 +48,11 @@ const CategoryComponent = (props: any) => {
                     {props?.data?.map((item: any) => {
                         return (
                             <Grid key={item?.title} mr={"12px"} ml={"12px"} sx={{ cursor: "pointer" }} onClick={() => handleNavigation(item)} id="itemGrid">
-                                <Box sx={{ width: "70px", height: "70px", backgroundColor: props?.itemBgColor, borderRadius: "50%" }}>
+                                 {/* To increase the box size */}
+                                <Box sx={{ width: "90px", height: "90px", backgroundColor: props?.itemBgColor, borderRadius: "50%" }}>
                                     <Grid padding={"15px"} className="section">
-                                        <RenderImage src={item?.desktopImg} width="40px" wrapper="div" />
+                                        {/* To increase the image size */}
+                                        <RenderImage src={item?.desktopImg} width="60px" wrapper="div" />
                                     </Grid>
                                 </Box>
                                 <TitleText textAlign={"center"} width={"70px"}>{item?.title}</TitleText>
