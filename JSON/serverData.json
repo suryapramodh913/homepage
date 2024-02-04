@@ -297,6 +297,61 @@
                      "navigationUrl": ""
                   }
                ]
+            },
+            {
+               "id": "4",
+               "type": "storeServicesWdiget",
+               "title": "<h5 style='display: flex'><b style='padding-right: 10px'>Store Services</b> <img height='20px' width='20px' src=/images/location_icon.svg /> <span style='color: #222222e0;font: normal normal normal 14px/18px Roboto; opacity: 1'>Grassland (Franklin)</span><a style='color: #A02817; padding-left: 10px; font: normal normal bold 14px/18px Roboto;'>Change</a><h5>",
+               "linktext": "View All",
+               "linkTextUrl": "",
+               "bgColor": "#F9F6F2",
+               "fillComponent": true,
+               "data": [
+                  {
+                     "id": 1,
+                     "title": "Propane Refill",
+                     "description": "Refilling your propane tank at your local Tractor Supply is convenient and economical.",
+                     "desktopImg": "/images/Card_img_2.svg",
+                     "availableLocationRichText": "<div><span style='color: #649430; padding-right: 5px;font: normal normal bold 14px/19px Roboto'>Available</span><span> at Grassland (Franklin)</span></div>",
+                     "primaryButtonText": "More Info",
+                     "secondaryButtonText": "Other Locations",
+                     "primaryButtonLink": "/info",
+                     "secondaryButtonLink": "/location"
+                  },
+                  {
+                     "id": 2,
+                     "title": "Trailer Rental",
+                     "description": "Tough job to tackle? Transporting your purchase home? Rent a trailer and get it done!",
+                     "desktopImg": "/images/Card_img_1.svg",
+                     "availableLocationRichText": "<div><span style='color: #649430; padding-right: 5px;font: normal normal bold 14px/19px Roboto'>Available</span><span> at Grassland (Franklin)</span></div>",
+                     "primaryButtonText": "More Info",
+                     "secondaryButtonText": "Other Locations",
+                     "primaryButtonLink": "/info",
+                     "secondaryButtonLink": "/location"
+                  },
+                  {
+                     "id": 3,
+                     "title": "Garden Center",
+                     "description": "Refilling your propane tank at your local Tractor Supply is convenient and economical.",
+                     "desktopImg": "/images/Card_img_3.svg",
+                     "availableLocationRichText": "<div><span style='color: #649430; padding-right: 5px;font: normal normal bold 14px/19px Roboto'>Available</span><span> at Grassland (Franklin)</span></div>",
+                     "primaryButtonText": "More Info",
+                     "secondaryButtonText": "Other Locations",
+                     "primaryButtonLink": "",
+                     "secondaryButtonLink": ""
+                  },
+                  {
+                     "id": 4,
+                     "title": "Feed Center",
+                     "description": "Feed your farm animals with our high quality food at our Feed Centers.",
+                     "desktopImg": "/images/Card_img_2.svg",
+                     "availableLocationRichText": "<div><span style='color: #649430; padding-right: 5px;font: normal normal bold 14px/19px Roboto'>Available</span><span> at Grassland (Franklin)</span></div>",
+                     "primaryButtonText": "More Info",
+                     "secondaryButtonText": "Other Locations",
+                     "primaryButtonLink": "",
+                     "secondaryButtonLink": ""
+                  }
+               ]
             }
          ]
       }
